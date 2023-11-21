@@ -40,6 +40,7 @@ const SignIn = () => {
         backgroundSize: "cover",
       }}
     >
+      <br></br>
       <Paper
         elevation={3}
         style={{ padding: 60, maxWidth: 400, margin: "auto", marginTop: 50 }}
@@ -129,6 +130,7 @@ const SignIn = () => {
           </center>
         </div>
       </Paper>
+      <br></br>
     </div>
   );
 };

@@ -31,8 +31,9 @@ function Navbar() {
   const navigate = useNavigate();
   return (
     <div>
-      <AppBar position="static" sx={{ backgroundColor: "#4B0082" }}>
+      <AppBar position="static" sx={{ backgroundColor: "darkblue" }}>
         <Toolbar sx={{ justifyContent: "flex-end" }}>
+          <h2 style={{ fontStyle: "revert-layer" }}>SkillSynC💤</h2>&emsp;
           <Button
             onClick={() => navigate("/")}
             variant="text"
@@ -63,7 +64,7 @@ function Navbar() {
             onClick={() => navigate("about")}
             variant="text"
             type="submit"
-            style={{ color: "white", marginRight: "850px" }}
+            style={{ color: "white", marginRight: "740px" }}
           >
             About
           </Button>
@@ -71,7 +72,7 @@ function Navbar() {
           <Button
             onClick={() => navigate("LoginPage")}
             variant="contained"
-            color="secondary"
+            style={{ backgroundColor: "#6B3FA0" }}
             type="submit"
           >
             Login
@@ -80,8 +81,8 @@ function Navbar() {
           <Button
             onClick={() => navigate("SignUp")}
             variant="contained"
-            color="secondary"
             type="submit"
+            style={{ backgroundColor: "#6B3FA0" }}
           >
             SignUp
           </Button>

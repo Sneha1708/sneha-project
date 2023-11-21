@@ -11,8 +11,8 @@ import {
 const Footer = () => {
   return (
     <div>
-      <AppBar position="static" sx={{ backgroundColor: "#4B0082" }}>
-        <p style={{ backgroundColor: "#4B0082" }}>
+      <AppBar position="static" sx={{ backgroundColor: "darkblue" }}>
+        <p>
           <h4>
             Email:freelancefinder099@gmail.com &emsp; &emsp;Contact: 9867895748
           </h4>

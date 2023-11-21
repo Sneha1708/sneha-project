@@ -31,19 +31,15 @@ const Freelancing = () => {
       <br></br>
 
       <center>
-        <p>
-          Welcome to [Your Freelance Finder Platform] - Where Talent Meets
-          Opportunity!
-        </p>
+        <p>Welcome to [SKILLSINK] - Where Talent Meets Opportunity!</p>
         <br></br>
         <p>
-          Embark on a journey of limitless possibilities with [Your Freelance
-          Finder Platform], your gateway to a world of unparalleled talent and
-          opportunity. Unleash the power of collaboration as you navigate
-          through a curated network of skilled freelancers and visionary
-          clients. Our platform is more than just a marketplace; it's a vibrant
-          community where innovation thrives, and dreams are turned into
-          reality.
+          Embark on a journey of limitless possibilities with [SKILLSINK], your
+          gateway to a world of unparalleled talent and opportunity. Unleash the
+          power of collaboration as you navigate through a curated network of
+          skilled freelancers and visionary clients. Our platform is more than
+          just a marketplace; it's a vibrant community where innovation thrives,
+          and dreams are turned into reality.
         </p>
         <br></br>
         <p>
@@ -59,21 +55,20 @@ const Freelancing = () => {
         <p>
           Discover a seamless and intuitive interface designed to simplify your
           freelance experience. Whether you're a talented professional searching
-          for exciting projects or a business seeking top-tier expertise, [Your
-          Freelance Finder Platform] is your compass in the ever-expanding
-          landscape of freelance opportunities. With a diverse pool of
-          freelancers spanning across industries, finding the perfect match for
-          your project has never been this effortless.
+          for exciting projects or a business seeking top-tier
+          expertise,SKILLSINK is your compass in the ever-expanding landscape of
+          freelance opportunities. With a diverse pool of freelancers spanning
+          across industries, finding the perfect match for your project has
+          never been this effortless.
         </p>
         <br></br>
         <p>
-          At [Your Freelance Finder Platform], we prioritize transparency,
-          security, and excellence. Our robust screening process ensures that
-          only the best talents make it to our platform, giving you the
-          confidence to build your projects with the utmost skill and
-          proficiency. From graphic designers and writers to developers and
-          marketing experts, our talent pool is as diverse as your project
-          demands.
+          At SKILLSINK, we prioritize transparency, security, and excellence.
+          Our robust screening process ensures that only the best talents make
+          it to our platform, giving you the confidence to build your projects
+          with the utmost skill and proficiency. From graphic designers and
+          writers to developers and marketing experts, our talent pool is as
+          diverse as your project demands.
         </p>
         <p>
           <img
