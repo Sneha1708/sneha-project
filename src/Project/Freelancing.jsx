@@ -42,14 +42,12 @@ const Freelancing = () => {
           and dreams are turned into reality.
         </p>
         <br></br>
-        <p>
-          <center>
-            <img
-              style={{ width: "900px", height: "500px" }}
-              src="https://media.licdn.com/dms/image/D5612AQF-kIuqrCOJKw/article-cover_image-shrink_720_1280/0/1679072915989?e=2147483647&v=beta&t=h0etWTxeXusU8LdEMHRTf6_7_M1pANqrlJjdYIWiU5U"
-              alt=""
-            ></img>
-          </center>
+        <p style={{ alignItems: "center" }}>
+          <img
+            style={{ width: "900px", height: "500px" }}
+            src="https://media.licdn.com/dms/image/D5612AQF-kIuqrCOJKw/article-cover_image-shrink_720_1280/0/1679072915989?e=2147483647&v=beta&t=h0etWTxeXusU8LdEMHRTf6_7_M1pANqrlJjdYIWiU5U"
+            alt=""
+          ></img>
         </p>
 
         <p>

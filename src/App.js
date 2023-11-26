@@ -1,15 +1,199 @@
 // src/App.js
-import React from 'react'
-import {Routes,Route} from "react-router-dom";
+/*/ App.js
 import HomePage from './Project/HomePage'
 import About from './Project/About'
 import Navbar from './Project/Navbar'
 import SignUp from './Project/SignUp';
-import LoginPage from './Project/LoginPage';
+
 import FindWork from './Project/FindWork';
 import Freelancing from './Project/Freelancing';
 import Footer from './Project/Footer';
 import ForYou from './Project/ForYou';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import LoginPage from "./Project/LoginPage";
+import Photography from './Project/Photography';
+import Catering from './Project/Catering';
+
+//const Home = () => <h1>Welcome to the Home Page</h1>;
+
+const App = () => {
+  return (
+    <>
+<Navbar/>
+ <Routes>
+ <Route path="/" element={<HomePage/>}/>
+ <Route path="about" element={<About/>}/>
+ <Route path="SignUp" element={<SignUp/>}/>
+ <Route path="LoginPage" element={<LoginPage/>}/>
+ <Route path="Findfreelancer" element={<FindWork/>}/>
+ <Route path="freelancing" element={<Freelancing/>}/>
+ <Route path="foryou" element={<ForYou/>}/>
+ <Route path="Findfreelancer/photography" element={<Photography/>}/>
+ <Route path="Findfreelancer/catering" element={<Catering/>}/>
+
+ </Routes>
+ 
+<Footer/></>
+     
+  );
+};
+    
+
+export default App;
+/*/
+// App.
+/*------------------------------------------
+import HomePage from './Project/HomePage'
+import About from './Project/About'
+import Navbar from './Project/Navbar'
+import SignUp from './Project/SignUp';
+import FindWork from './Project/FindWork';
+import Freelancing from './Project/Freelancing';
+import Footer from './Project/Footer';
+import ForYou from './Project/ForYou';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import LoginPage from "./Project/LoginPage";
+import Photography from './Project/Photography';
+import Catering from './Project/Catering';
+
+const App = () => {
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="about" element={<About />} />
+        <Route path="SignUp" element={<SignUp />} />
+        <Route path="LoginPage" element={<LoginPage />} />
+        <Route path="Findfreelancer" element={<FindWork />}>
+          <Route path="photography" element={<Photography />} />
+          <Route path="catering" element={<Catering />} />
+        </Route>
+        <Route path="freelancing" element={<Freelancing />} />
+        <Route path="foryou" element={<ForYou />} />
+      </Routes>
+      <Footer />
+    </>
+  );
+};
+
+export default App;-------------*/
+/*import React from "react";
+import { Routes, Route } from "react-router-dom";
+import HomePage from './Project/HomePage';
+import About from './Project/About';
+import Navbar from './Project/Navbar';
+import SignUp from './Project/SignUp';
+import FindWork from './Project/FindWork';
+import Freelancing from './Project/Freelancing';
+import Footer from './Project/Footer';
+import ForYou from './Project/ForYou';
+import LoginPage from "./Project/LoginPage";
+import Photography from './Project/Photography';
+import Catering from './Project/Catering';
+import Webdesign from "./Project/Webdesign";
+import Artwork from "./Project/Artwork";
+import Makeup from "./Project/Makeup";
+import DigitalMarketing from "./Project/DigitalMarketing";
+const App = () => {
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="about" element={<About />} />
+        <Route path="signup" element={<SignUp />} />
+        <Route path="login" element={<LoginPage />} />
+        <Route path="findfreelancer" element={<FindWork />} />
+        <Route path="findfreelancer/photography" element={<Photography />} />
+        <Route path="findfreelancer/catering" element={<Catering />} />
+        <Route path="findfreelancer/webdesign" element={<Webdesign />} />
+        <Route path="findfreelancer/artwork" element={<Artwork />} />
+        <Route path="findfreelancer/makeup" element={<Makeup />} />
+        <Route path="findfreelancer/webdesign" element={<Webdesign />} />
+        <Route path="findfreelancer/digitalmarketing" element={<DigitalMarketing />} />
+        <Route path="freelancing" element={<Freelancing />} />
+        <Route path="foryou" element={<ForYou />} />
+      </Routes>
+      <Footer />
+    </>
+  );
+};
+
+export default App;*/
+//APP.JS   // src/App.js
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./Project/Navbar";
+import HomePage from "./Project/HomePage";
+import About from "./Project/About";
+import SignUp from "./Project/SignUp";
+import LoginPage from "./Project/LoginPage";
+import FindWork from "./Project/FindWork";
+import Freelancing from "./Project/Freelancing";
+import ForYou from "./Project/ForYou";
+import Footer from "./Project/Footer";
+import { AuthProvider } from "./Project/AuthContext";
+import Photography from "./Project/Photography";
+import Catering from "./Project/Catering";
+import Artwork from "./Project/Artwork";
+import Webdesign from "./Project/Webdesign";
+import Makeup from "./Project/Makeup";
+import CakeBaking from "./Project/CakeBaking";
+import Webtechnology from "./Project/Webtechnology";
+import DigitalMarketing from "./Project/DigitalMarketing";
+import ContentWriter from "./Project/ContentWriter";
+import LogoDesign from "./Project/LogoDesign";
+
+
+const App = () => {
+  return (
+    <AuthProvider>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="about" element={<About />} />
+          <Route path="SignUp" element={<SignUp />} />
+          <Route path="LoginPage" element={<LoginPage />} />
+          
+          <Route path="findfreelancer" element={<FindWork />} />
+        <Route path="findfreelancer/photography" element={<Photography />} />
+        <Route path="findfreelancer/catering" element={<Catering />} />
+        <Route path="findfreelancer/webdesign" element={<Webdesign />} />
+        <Route path="findfreelancer/artwork" element={<Artwork />} />
+        <Route path="findfreelancer/makeup" element={<Makeup />} />
+        <Route path="findfreelancer/cakebaking" element={<CakeBaking/>} />
+        <Route path="findfreelancer/digitalmarketing" element={<DigitalMarketing/>} />
+        <Route path="findfreelancer/webtechnology" element={<Webtechnology/>} />
+        <Route path="findfreelancer/contentwriter" element={<ContentWriter/>} />
+        <Route path="findfreelancer/logodesign" element={<LogoDesign/>} />
+
+          <Route path="freelancing" element={<Freelancing />} />
+          <Route path="foryou" element={<ForYou />} />
+        </Routes>
+        <Footer />
+      </div>
+    </AuthProvider>
+  );
+};
+
+export default App;
+
+/*
+import React from 'react'
+import {Routes,Route} from "react-router-dom";
+import HomePage from './HomePage'
+import About from './About'
+import Navbar from './Navbar'
+import SignUp from './SignUp';
+import LoginPage from './LoginPage';
+import FindWork from './FindWork';
+import Freelancing from './Freelancing';
+import Footer from './Footer';
+import ForYou from './ForYou';
 const App = () => {
   return (
     <div>
@@ -28,7 +212,7 @@ const App = () => {
   )
 }
 
-export default App
+export default App*/
 // import  "./App.css";
 // import React from "react";
 // //import HomePage from ".Project/HomePage";
@@ -209,3 +393,6 @@ function App() {
 export default App;
 
 /*/
+
+
+
